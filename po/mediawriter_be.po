@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-24 15:36+0100\n"
-"PO-Revision-Date: 2026-04-24 10:58+0000\n"
+"PO-Revision-Date: 2026-04-30 09:59+0000\n"
 "Last-Translator: Yauhen Bugamol "
 "<bugamol@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Belarusian <https://translate.fedoraproject.org/projects/"
@@ -341,12 +341,9 @@ msgid "Retry"
 msgstr "Паўтарыць"
 
 #: ../src/app/drivemanager.cpp:288
-#, fuzzy
-#| msgctxt "LinuxDrive|"
-#| msgid "The drive was removed while it was written to."
 msgctxt "Drive|"
 msgid "The drive was removed while it was written to."
-msgstr "Дыск быў выняты падчас запісу."
+msgstr "Дыск быў выняты да завяршэння запісу."
 
 #: ../src/app/drivemanager.cpp:391
 msgctxt "Drive|"
@@ -362,41 +359,28 @@ msgid "Could not find the helper binary. Check your installation."
 msgstr "Не ўдалося знайсці дапаможны бінарны файл. Праверце ўсталяванне."
 
 #: ../src/app/drivemanager.cpp:435
-#, fuzzy
-#| msgctxt "LinuxDrive|"
-#| msgid "Stopped before writing has finished."
 msgctxt "Drive|"
 msgid "Stopped before writing has finished."
 msgstr "Спынена да завяршэння запісу."
 
 #: ../src/app/drivemanager.cpp:503 ../src/app/drivemanager.cpp:530
-#, fuzzy
-#| msgctxt "LinuxDrive|"
-#| msgid "Finished!"
 msgctxt "Drive|"
 msgid "Finished!"
 msgstr "Гатова!"
 
 #: ../src/app/drivemanager.cpp:503 ../src/app/drivemanager.cpp:530
-#, fuzzy, qt-format
-#| msgctxt "LinuxDrive|"
-#| msgid "Writing %1 was successful"
+#, qt-format
 msgctxt "Drive|"
 msgid "Writing %1 was successful"
 msgstr "Запіс %1 паспяхова завершаны"
 
 #: ../src/app/drivemanager.cpp:536
-#, fuzzy
-#| msgctxt "LinuxDrive|"
-#| msgid "Error"
 msgctxt "Drive|"
 msgid "Error"
 msgstr "Памылка"
 
 #: ../src/app/drivemanager.cpp:536
-#, fuzzy, qt-format
-#| msgctxt "LinuxDrive|"
-#| msgid "Writing %1 failed"
+#, qt-format
 msgctxt "Drive|"
 msgid "Writing %1 failed"
 msgstr "Не ўдалося запісаць %1"
@@ -831,12 +815,9 @@ msgid "Restore Drive <b>%1</b>"
 msgstr "Аднаўленне дыска <b>%1</b>"
 
 #: ../src/app/qml/RestorePage.qml:39
-#, fuzzy
-#| msgctxt "RestorePage|"
-#| msgid "Restore Drive <b>%1</b>"
 msgctxt "RestorePage|"
 msgid "Restore Drive"
-msgstr "Аднаўленне дыска <b>%1</b>"
+msgstr "Аднаўленне дыска"
 
 #: ../src/app/qml/RestorePage.qml:48
 msgctxt "RestorePage|"
@@ -1138,11 +1119,8 @@ msgstr "usb"
 
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/org.fedoraproject.MediaWriter.metainfo.xml.in:23
-#, fuzzy
-#| msgctxt "DeviceWarningDialog|"
-#| msgid "Write"
 msgid "writer"
-msgstr "Запісаць"
+msgstr "writer"
 
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/org.fedoraproject.MediaWriter.metainfo.xml.in:24
@@ -1152,12 +1130,12 @@ msgstr "live"
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/org.fedoraproject.MediaWriter.metainfo.xml.in:25
 msgid "spin"
-msgstr ""
+msgstr "spin"
 
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/org.fedoraproject.MediaWriter.metainfo.xml.in:26
 msgid "creator"
-msgstr ""
+msgstr "creator"
 
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/org.fedoraproject.MediaWriter.metainfo.xml.in:27
